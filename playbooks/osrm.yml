@@ -3,8 +3,9 @@
 # Usage:
 #   ansible-playbook ./osrm.yml -i "localhost,"
 #
-- hosts: localhost
-  sudo: True
+- hosts: local
+  connection: local
+  become: True
   gather_facts: False
   roles:
-    - osrm
+    - osrm-data
