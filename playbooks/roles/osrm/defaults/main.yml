@@ -36,7 +36,7 @@ osrm_ubuntu_pkgs:
   - cmake 
   - pkg-config 
   - libprotoc-dev 
-  - libprotobuf8
+#  - libprotobuf8
   - protobuf-compiler 
   - libprotobuf-dev 
   - libosmpbf-dev 
@@ -44,7 +44,7 @@ osrm_ubuntu_pkgs:
   - libbz2-dev 
   - libstxxl-dev 
   - libstxxl-doc 
-  - libstxxl1
+#  - libstxxl1
   - libxml2-dev
   - libzip-dev 
   - libboost-all-dev 
