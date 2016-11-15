@@ -2,6 +2,7 @@
 # Creates a new ansible role
 # Usage:
 #   ansible-playbook ./osrm.yml -i "localhost,"
+#   ansible-playbook -i hosts ./osrm.yml
 #
 - hosts: local
   connection: local
